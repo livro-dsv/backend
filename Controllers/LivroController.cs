@@ -27,6 +27,7 @@ namespace API.Controllers
     {
       await _context.Livros.AddAsync(livro);
       await _context.SaveChangesAsync(); 
+      return Created("", livro);
     }
 
     // GET: api/livro
