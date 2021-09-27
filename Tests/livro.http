@@ -1,0 +1,13 @@
+###
+POST https://localhost:5001/api/livro/create
+Content-Type: application/json
+
+{
+  "Titulo": "Harry Potter e o Cálice de Fogo",
+  "Preco": 49,
+  "Autor": "J.K. Rowling",
+  "Genero": "Aventura"
+}
+
+###
+GET https://localhost:5001/api/livro/list
